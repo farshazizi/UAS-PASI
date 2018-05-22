@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginBottom="16dp"
+    tools:context="com.qtaaruf.uaspasi.Main2Activity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_menu1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="menuSatu"
+        android:layout_marginBottom="8dp">
+
+        <ImageView
+            android:id="@+id/imgView_menu1"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/triangle_green"/>
+
+        <TextView
+            android:id="@+id/textView_menu1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="Menghitung Luas Segitiga"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="@color/hitam"
+            android:layout_toRightOf="@id/imgView_menu1"
+            android:gravity="center"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_menu2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="menuDua"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+
+        <ImageView
+            android:id="@+id/imgView_menu2"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/square_blue"/>
+
+        <TextView
+            android:id="@+id/textView_menu2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="Menghitung Luas Persegi"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="@color/hitam"
+            android:layout_toRightOf="@id/imgView_menu2"
+            android:gravity="center"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_menu3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="menuTiga"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+
+        <ImageView
+            android:id="@+id/imgView_menu3"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/circle_red"/>
+
+        <TextView
+            android:id="@+id/textView_menu3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="Menghitung Luas Lingkaran"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="@color/hitam"
+            android:layout_toRightOf="@id/imgView_menu3"
+            android:gravity="center"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_menu4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="menuEmpat"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+
+        <ImageView
+            android:id="@+id/imgView_menu4"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/kite_purple"/>
+
+        <TextView
+            android:id="@+id/textView_menu4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="Menghitung Luas Layang-layang"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="@color/hitam"
+            android:layout_toRightOf="@id/imgView_menu4"
+            android:gravity="center"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+</LinearLayout>
